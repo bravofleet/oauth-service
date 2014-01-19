@@ -12,6 +12,8 @@ use OAuth\Common\Http\Uri\UriInterface;
 
 class Bravo extends AbstractService
 {
+    const SCOPE_BASIC = 'basic';
+    
     private static $providerUrl = 'http://identity.bravofleet.com';
     
     public static function setProviderUrl($url)
