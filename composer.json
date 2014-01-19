@@ -1,0 +1,24 @@
+{
+    "name": "bravofleet/oauth-service",
+    "description": "OAuth Service for Bravo Fleet identity.",
+    "keywords": ["oauth", "bravo", "fleet", "star trek", "simm"],
+    "license": "BSD",
+    "authors": [
+        {
+            "name": "Jon Matterson",
+            "email": "jonm@bravofleet.com"
+        }
+    ],
+    "minimum-stability": "stable",
+    "require": {
+        "php": ">=5.3.0"
+    },
+    "suggest": {
+        "lusitanian/oauth": "OAuth client plugin this service was built to work with."
+    },
+    "autoload": {
+        "files": [
+            "src/OAuth/OAuth2/Service/Bravo.php"
+        ]
+    }
+}
