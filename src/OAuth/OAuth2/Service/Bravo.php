@@ -23,7 +23,7 @@ class Bravo extends AbstractService
     
     public static function getProviderUrl()
     {
-        return self::$providerUrl;
+        return rtrim(self::$providerUrl, '/').'/';
     }
     
     public function __construct(
